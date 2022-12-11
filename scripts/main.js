@@ -40,7 +40,7 @@ btnStart.onclick = ()=>{
         counter++;
         showFreq(rndInt);
         showSeconds(counter);
-    },10)
+    },1000)
 }
 }
 btnStop.onclick = ()=>{
