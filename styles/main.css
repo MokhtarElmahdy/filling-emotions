@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  color: #FFF;
+  background-color: #16213E;
+  min-height: 100vh;
+}
+main .game-title p {
+  margin: 0;
+  font-size: 22px;
+}
+main .emoji {
+  width: 40%;
+  padding: 20px 0;
+  margin: auto;
+  font-size: 30px;
+}
+main .emoji .emoji-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+main .emoji .emoji-list li {
+  text-align: center;
+}
+main .emoji > p {
+  text-align: center;
+}
+main .box {
+  border: 1px solid #333;
+  border-top: none;
+}
+main .box .stack {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-size: larger;
+}/*# sourceMappingURL=main.css.map */

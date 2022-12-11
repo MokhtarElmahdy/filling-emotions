@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Emoji Game</title>
+</head>
+<body>
+    <main class="py-5">
+        <div class="container">
+<div class="row">
+    <div class="col-md-7">
+        <div class="d-flex gap-5 align-items-center justify-content-center game-title">
+            <p>Welcome <span class="text-danger" id="user"></span> ❤️</p>
+            <button class="btn btn-warning rounded-pill px-5" id="btnStart">Start</button>
+            <button class="btn btn-warning rounded-pill px-5" id="btnStop">Stop</button>
+        </div>
+        <div class="emoji">
+            <ul class="emoji-list">
+                <li> <p id="0"> 😍 </p> <span>0</span> </li>
+                <li> <p id="1"> 😃 </p> <span>0</span> </li>
+                <li> <p id="2"> 🤔 </p> <span>0</span> </li>
+                <li> <p id="3"> 🙄 </p> <span>0</span> </li>
+                <li> <p id="4"> 😜 </p> <span>0</span> </li>
+            </ul>
+            <p id="interval">
+                00:00
+            </p>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="box">
+            <div class="container">
+                <div class="row">
+                    <div class="col stack border-end" id="stack0"></div>
+                    <div class="col stack border-end" id="stack1"></div>
+                    <div class="col stack border-end" id="stack2"></div>
+                    <div class="col stack border-end" id="stack3"></div>
+                    <div class="col stack" id="stack4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <p class="status fs-2"></p>
+        </div>
+    </div>
+</div>
+        </div>
+    </main>
+
+
+    <!-- Scripts -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
